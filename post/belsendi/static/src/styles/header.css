@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    font-family: Proxima Nova;
+    justify-content: space-around;
+    background: #627CFF;
+    text-transform: uppercase;
+}
+.logo {
+    color: #ffffff;
+    font-size: 1.3em;
+}
+.links {
+    padding-left: 0;
+    list-style: none;
+}
+.links > li > a{
+    text-decoration: none;
+    color: #ffffff;    
+}
+.links > li {
+    display: inline;
+    padding-right: 50px;
+}
+.sign-in {
+    width: 100px;
+    margin: 13px;
+    display: inline-block;
+    background:  #627CFF;
+    border: solid 1px #ffffff;
+    font-size: inherit;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+.sign-in-btn {
+    text-decoration: none;
+    color:  white;
+}
+.sign-in-btn:hover {
+    color: #627CFF;
+}
+.sign-in:hover {
+    background-color: #ffffff;
+    color: #627CFF;
+    transition: 0.5s ease;
+}
+/* end Header */
+strong {
+    color: white;
+}

@@ -1,0 +1,22 @@
+.footer {
+    color: white;
+}
+.footer-footer {
+    background-color: #627cff;
+    padding: 1em 9.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.footer-navigation li {
+    margin-right: 40px;
+}
+.footer-navigation a {
+    color: white;
+    text-decoration: none;
+}
